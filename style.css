@@ -1,0 +1,120 @@
+.container{
+	margin-right: 0px;
+	border-radius: 5px;
+}
+.inner-layer{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,147,173,0.7);
+}
+.form-data{
+	margin-top: 80px;
+	margin-left: 30px;
+	background-color: #FFF;
+}
+.form-body{
+	padding: 20px;
+}
+.form-head{
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.form-head h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+.no-margin{
+	margin: 0px;
+}
+
+.form-row{
+	margin-bottom: 15px;
+}
+.form-control{
+	background-color: #f7f7ff;
+	border-radius: 0px;
+
+}
+.form-control:focus{
+	box-shadow: none;
+	border: 3px solid #138496;
+}
+.btn-appointment{
+	background-color: #138496 !important;
+	border-color: #138496 !important;
+	width: 100%;
+}
+.content{
+	margin-top: 15%;
+	text-align: center;
+	color: #FFF;
+	padding: 5px;
+}
+.content h1{
+	font-weight: 600;
+	font-size: 3.5rem;
+}
+.content h2{
+	font-weight: 600;
+	font-size:2.5rem;
+	margin-top: 20px;
+}
+.content p{
+	font-size: 22px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.datepicker td, .datepicker th{
+	padding: 5px;
+}
+.dropdown-menu.datepicker{
+	max-width: 300px !important;
+}
+
+
+.popup{
+	width:500 px;
+	background: #138496;
+	border-radius: 5px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1); 
+	text-align: center;
+	padding: 0 30px 0 30px;
+	color:rgb(11, 12, 12);
+	visibility: hidden;
+	transition: tranform 0.4s, top 0.4s;
+
+}
+
+.openPopup{
+	visibility: visible;
+	top:50%;
+	transform: translate(-50%, -50%) scale(1);
+
+
+}
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin:30px 0 10px;
+}
+.popup button{
+	width: 100px;
+	margin-top: 60px;
+	padding:10px;
+	background:#f7f7ff;
+	color : rgb(18, 17, 17);
+	border: 2px;
+	outline : none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor:pointer;
+
+}
+
+@media screen and (max-width: 976px){
+	
+}
